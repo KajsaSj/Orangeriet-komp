@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html manifest="manifest.appcache" class="no-js" lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Cache-control" content="public">
+   
+    <title> Kläder | Orangeriet Bazaar </title>
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+    <header> 
+      <!--Meny för större skärmar-->
+      <div class="Logotyp">
+        <a href="index.html"> <img src="Logotyp1.png" alt="Logga"></a>
+      </div>
+
+          <div class="container">
+              <nav>
+                  <ul>
+                      <li><a href="inredning.html"> Inredning </a></li>
+                      <li><a href="vaxter.html"> Växter </a></li>
+                      <li><a href="klader.html"> Kläder</a></li>
+                      <li><a href="om-oss.html"> Om oss </a></li>
+                      <li><a href="kontakta-oss.html"> Kontakta oss </a></li>
+                  </ul>
+              </nav>
+          </div>
+
+          <ul class="social-media">
+            <li><a href="https://www.facebook.com"><img src="fb.svg" alt="Facebook ikon"></a></li>
+            <li><a href="https://www.instagram.com"><img src="insta.svg" alt="Instagram ikon"></a></li>
+          </ul>
+
+        <!-- mobilanpassad-meny -->
+          <div class="topnav">
+       
+              <a href="index.html" class="active">Orangeriet <br> Bazaar</a>
+        
+              <div id="myLinks">
+                <a href="inredning.html">Inredning</a>
+                <a href="vaxter.html">Växter</a>
+                <a href="klader.html">Kläder</a>
+                <a href="kontakta-oss.html">Kontakta oss</a>
+                <a href="om-oss.html">Om oss</a>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+        
+        
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
+
+
+
+    </header>
+     
+        <main>
+
+          <div class="titel">
+              <h3>Mode</h3>
+          </div>
+
+          <div class="content">
+
+              <article id="Kappor/Jackor">
+                <img src="jacket.jpg" alt="Jackor"> 
+                <button type="button" aria-label="Sida kappor och jackor"> Kappor/Jackor </button>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero voluptates suscipit.</p>
+                  
+              </article>
+
+              <article id="Toppar">
+                <img src="sweater.jpg" alt="tröja"> 
+                <button type="button" aria-label="Sida för toppar">Toppar</button>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero voluptates suscipit.</p>  
+              </article>
+
+              <article id="Pants">
+                <img src="jeans.jpg" alt="Byxor"> 
+                <button type="button" aria-label="Sida för byxor">Byxor </button>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero voluptates suscipit.</p>
+                  <br><br>
+                  
+              </article>
+
+              <article id="Handbag">
+                <img src="bag.jpg" alt="väska"> 
+                <button type="button" aria-label="Sida för väskor"> Väskor</button>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero voluptates suscipit.</p>
+                  <br><br>
+              </article>
+
+              <article id="Shoes">
+                <img src="shoes.jpg" alt="skor"> 
+                <button type="button" aria-label="Sida för skor"> Skor </button>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero voluptates suscipit.</p>
+                  <br><br>  
+              </article>
+
+              <article id="Accessories">
+                <img src="accessories2.jpg" alt="Accessorarer"> 
+                <button type="button" aria-label="Sida för accessoarer">Accessoarer</button>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero voluptates suscipit.</p>
+                  <br><br> 
+              </article>
+
+          </div>
+        </main>
+
+   <footer>
+     <p>Orangeriet Bazaar, Copyright © 2019 </p>
+    </footer>
+  
+  </body>
+  
+  </html>

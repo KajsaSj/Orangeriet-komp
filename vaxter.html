@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html manifest="manifest.appcache" class="no-js" lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    
+    <title> Växter | Orangeriet Bazaar</title>
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+    <header> 
+      <!--Meny för större skärmar-->
+      <div class="Logotyp">
+        <a href="index.html"> <img src="Logotyp1.png" alt="Logga"></a>
+      </div>
+          <div class="container">
+              
+              <nav>
+                  <ul>
+                      <li><a href="inredning.html"> Inredning </a></li>
+                      <li><a href="vaxter.html"> Växter </a></li>
+                      <li><a href="klader.html"> Kläder</a></li>
+                      <li><a href="om-oss.html"> Om oss </a></li>
+                      <li><a href="kontakta-oss.html"> Kontakta oss </a></li>
+                  </ul>
+              </nav>
+          </div>
+          <ul class="social-media">
+            <li><a href="https://www.facebook.com"><img src="fb.svg" alt="Facebook ikon"></a></li>
+            <li><a href="https://www.instagram.com"><img src="insta.svg" alt="Instagram ikon"></a></li>
+        </ul>
+
+
+        <!-- mobilanpassad-meny -->
+        <div class="topnav">
+ 
+            <a href="index.html" class="active">Orangeriet <br> Bazaar</a>
+      
+            <div id="myLinks">
+              <a href="inredning.html">Inredning</a>
+              <a href="vaxter.html">Växter</a>
+              <a href="klader.html">Kläder</a>
+              <a href="kontakta-oss.html">Kontakta oss</a>
+              <a href="om-oss.html">Om oss</a>
+            </div>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+      
+      
+      <script>
+          function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+      </script>
+
+
+      </header>
+     
+        <main>
+
+          <div class="titel">
+            <h3>Växter</h3>
+          </div>
+
+          <div class="content"> 
+
+              <article id="Plants">
+                <img src="greenPlant.jpg" alt="Gröna växter"> 
+                <button type="button" aria-label="Sida för gröna växter">Gröna växter </button>
+              </article>
+
+              <article id="Herbs">
+                <img src="herbs.jpg" alt="Färska örter"> 
+                <button type="button" aria-label="Sida för färska öter"> Färska örter</button> 
+              </article>
+
+              <article id="Flowers">
+                <img src="flowers.jpg" alt="Snittblommor"> 
+              <button type="button" aria-label="Sida för snittblommor"> Snittblommor</button>
+              </article>
+    
+          </div>
+        </main>
+
+        <br><br><br><br><br>
+        <footer>
+            <p>Orangeriet Bazaar, Copyright © 2019 </p>
+        </footer>
+  
+  </body>
+  
+  </html>
